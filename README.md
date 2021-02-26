@@ -8,7 +8,7 @@ qui va permettre de sauvegarder, chiffrer, rapatrier des fichiers depuis differe
 
 1/ Copie d'un fichier vers une plateforme cloud (OneDrive)
 
-rclone config
+<code>rclone config</code>
 
 une fois configurer avec le service désiré, il y a juste à passer la commande:
 
