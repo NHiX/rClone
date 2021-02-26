@@ -26,3 +26,7 @@ Vous pouvez spécifier un chemin d'accès après les ":" :
 une fois le service configuré, on peut "monter" celui-ci en tant que filesystems:
 
 <code>rclone mount --daemon nomduservice: /home/utilisateur/repertoire</code>
+
+3/ Montage d'un repertoire Cloud chiffré
+
+<code>rclone config</code>
