@@ -19,7 +19,10 @@ Vous pouvez spécifier un chemin d'accès après les ":" :
 <code>rclone copy monfichier.extension nomduservice:/monrepertoire/</code>
 
 
-3/ Utilisation de rClone dans le cadre d'un "montage" d'un volume Google Drive sur répertoire
+2/ Utilisation de rClone dans le cadre d'un "montage" d'un volume Google Drive sur répertoire
 
 <code>rclone config</code>
 
+une fois le service configuré, on peut "monter" celui-ci en tant que filesystems:
+
+<code>rclone mount --daemon nomduservice: /home/utilisateur/repertoire</code>
